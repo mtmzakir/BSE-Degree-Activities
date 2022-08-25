@@ -1,4 +1,4 @@
-<h1 align="center">BSE-Degree-Activities</h1>
+<h1 align="center">BSE Degree Activities by Me</h1>
 
 ### Skills &amp; Best Practices
 - OOP Concepts
