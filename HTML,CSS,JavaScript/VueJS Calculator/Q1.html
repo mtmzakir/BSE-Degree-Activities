@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <p>VueJs Crash Course</p>
+      <label>First Name</label>
+      <input type="text" id="name1" value="name1" v-model="message1" /><br /><br />
+      <label>Last Name</label>
+      <input type="text" id="name2" value="name2" v-model="message2" /><br /><br />
+      <label>Title</label>
+      <input type="text" id="title" value="title" v-model="msg3" /><br />
+      <p>Welcome {{massage3}} {{massage1}} {{massage2}} to the world of VueJs</p>
+    </div>
+    <script>
+      var app = new Vue({
+        el: "#app",
+        data: {
+          massage1: "",
+          massage2: "",
+          massage3: "",
+        },
+        methods: {},
+      });
+    </script>
+  </body>
+</html>

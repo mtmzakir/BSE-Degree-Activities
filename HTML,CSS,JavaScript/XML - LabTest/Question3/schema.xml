@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookCatalogue xmlns="http://www.secret.org">
+    <Book>
+        <Title>Secret</Title>
+        <author>Rhonda Byrne</author>
+        <Date>2006</Date>
+        <ISBN>81-40-34319-4</ISBN>
+        <Publisher>Atria Book</Publisher>
+        <Cost currency="INR">11.50</Cost>
+    </Book>
+    <Book>
+        <Title>The last day on earth</Title>
+        <Author> Peter Fenberg</Author>
+        <Date>1948</Date>
+        <ISBN>0-06-064831-7</ISBN>
+        <Publisher>Harper &amp; Row</Publisher>
+        <Cost currency="USD">2.95</Cost>
+    </Book>
+</BookCatalogue>
