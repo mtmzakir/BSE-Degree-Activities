@@ -11,4 +11,7 @@
 - ASP.NET
 - VueJS
 - ReactNative
-- 
+
+
+
+<h6 align="center">Credits to ZAKIR</h6>
