@@ -1,0 +1,74 @@
+{
+    "first": [
+       "Cources",
+       "Duation",
+       "Start Date",
+       "Total Fees",
+       "Discounts",
+       "Diploma/Higher Diploma"
+    ],
+    "col": [
+       "Data Science",
+       "12 Months",
+       "1/09/2021",
+       "Rs. 200,000.00",
+       "5%",
+       "Diploma",
+       [
+          "Cloud Computing",
+          "8 Months",
+          "15/09/2021",
+          "Rs. 175,000.00",
+          "5%",
+          "Diploma"
+       ],
+       [
+          "Cyber Security",
+          "12 Months",
+          "1/10/2021",
+          "Rs. 150,000.00",
+          "10%",
+          "Higher Diploma"
+       ],
+       [
+          "DevOps",
+          "12 Months",
+          "1/9/2021",
+          "Rs. 250,000.00",
+          "15%",
+          "Diploma"
+       ],
+       [
+          "IoT",
+          "8 Months",
+          "20/9/2021",
+          "Rs. 150,000.00",
+          "15%",
+          "Higher Diploma"
+       ],
+       [
+          "AI & ML",
+          "8 Months",
+          "15/9/2021",
+          "Rs. 250,000.00",
+          "15%",
+          "Diploma"
+       ],
+       [
+          "Full Stack",
+          "9 Months",
+          "1/9/2021",
+          "Rs. 175,000.00",
+          "15%",
+          "Diploma"
+       ],
+       [
+          "Ethical Haching",
+          "12 Months",
+          "15/9/2021",
+          "Rs. 1500,000.00",
+          "15%",
+          "Diploma"
+       ]
+    ]
+ }

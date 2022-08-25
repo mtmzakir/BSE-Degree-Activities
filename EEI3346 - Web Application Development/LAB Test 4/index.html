@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EEI3346 LabTest4</title>
+</head>
+
+<body>
+  <div>
+    <h1 style="text-align : center;">Calculator</h1>
+    <h2 style="text-align : center;">s92060419</h2>
+  </div>
+  <div style="text-align : center; border : 1px solid black; width : 30%; margin-left :35%;">
+    <form id="myForm">
+    <p id="display" style="background-color : gray; height : 25px;">0</p>
+    <select id="option" onchange="inputfilter()">
+      <option value="Add">Add</option>
+      <option value="Sub">Sub</option>
+      <option value="Mul">Mul</option>
+      <option value="Div">Div</option>
+    </select>
+        <br>
+        <input id="input1" type="number"><br>
+        <input id="input2" type="number"><br>
+        <input id="input3" type="number"><br>
+        <input id="input4" type="number"><br>
+        <button type="button" onclick="calculate()">Calculate</button>
+
+        <input type="button" onclick="myFunction()" value="clear">
+    </form>
+  </div>
+  <script>
+
+      function myFunction() {
+        window.location.href = 'index.html';
+      }
+          function calculate() {
+
+            var option = document.getElementById("option").value;
+            var display = document.getElementById("display").value;
+            var input1 = document.getElementById("input1").value;
+            var input2 = document.getElementById("input2").value;
+            var input3 = document.getElementById("input3").value;
+            var input4 = document.getElementById("input4").value;
+
+
+            document.getElementById("display").innerHTML = "You Selected: " + option;
+
+
+            if(option == "Add") {
+              document.getElementById("input4").value = parseInt(input1) + parseInt(input2) + parseInt(input3);
+            } else if(option == "Sub") {
+              document.getElementById("input4").value = parseInt(input1) - parseInt(input2) - parseInt(input3);
+            } else if(option == "Mul") {
+              document.getElementById("input4").value = parseInt(input1) * parseInt(input2) * parseInt(input3);
+            } else if(option == "Div") {
+
+              if(input2 == 0) {
+                alert("You can’t divide by Zero");
+              } else {
+                document.getElementById("input4").value = parseInt(input1) / parseInt(input2);
+              }
+            }
+
+          }
+
+          function inputfilter() {
+            var option = document.getElementById("option").value;
+            if(option == "Div") {
+              document.getElementById("input3").disabled = true;
+            } else {
+              document.getElementById("input3").disabled = false;
+            }
+
+    }
+
+  </script>
+</body>
+
+</html>

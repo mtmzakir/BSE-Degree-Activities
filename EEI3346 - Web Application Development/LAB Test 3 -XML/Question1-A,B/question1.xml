@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<school>
+    <first>
+        <t-head>Cources</t-head>
+        <t-head>Duation</t-head>
+        <t-head>Start Date</t-head>
+        <t-head>Total Fees</t-head>
+        <t-head>Discounts</t-head>
+        <t-head>Diploma/Higher Diploma</t-head>
+    </first>
+    <col>
+        <t-raw>Data Science</t-raw>
+        <t-raw>12 Months</t-raw>
+        <t-raw>1/09/2021</t-raw>
+        <t-raw>Rs. 200,000.00</t-raw>
+        <t-raw>5%</t-raw>
+        <t-raw>Diploma</t-raw>
+    </col>
+    <col>
+        <t-raw>Cloud Computing</t-raw>
+        <t-raw>8 Months</t-raw>
+        <t-raw>15/09/2021</t-raw>
+        <t-raw>Rs. 175,000.00</t-raw>
+        <t-raw></t-raw>
+        <t-raw>Diploma</t-raw>
+    </col>
+    <col>
+        <t-raw>Cyber Security</t-raw>
+        <t-raw>12 Months</t-raw>
+        <t-raw>1/10/2021</t-raw>
+        <t-raw>Rs. 150,000.00</t-raw>
+        <t-raw>10%</t-raw>
+        <t-raw>Higher Diploma</t-raw>
+    </col>
+    <col>
+        <t-raw>DevOps</t-raw>
+        <t-raw>12 Months</t-raw>
+        <t-raw>1/9/2021</t-raw>
+        <t-raw>Rs. 250,000.00</t-raw>
+        <t-raw></t-raw>
+        <t-raw>Diploma</t-raw>
+    </col>
+    <col>
+        <t-raw>IoT</t-raw>
+        <t-raw>8 Months</t-raw>
+        <t-raw>20/9/2021</t-raw>
+        <t-raw>Rs. 150,000.00</t-raw>
+        <t-raw>15%</t-raw>
+        <t-raw>Higher Diploma</t-raw>
+    </col>
+    <col>
+        <t-raw>AI &amp; ML</t-raw>
+        <t-raw>8 Months</t-raw>
+        <t-raw>15/9/2021</t-raw>
+        <t-raw>Rs. 250,000.00</t-raw>
+        <t-raw></t-raw>
+        <t-raw>Diploma</t-raw>
+    </col>
+    <col>
+        <t-raw>Full Stack</t-raw>
+        <t-raw>9 Months</t-raw>
+        <t-raw>1/9/2021</t-raw>
+        <t-raw>Rs. 175,000.00</t-raw>
+        <t-raw></t-raw>
+        <t-raw>Diploma</t-raw>
+    </col>
+    <col>
+        <t-raw>Ethical Haching</t-raw>
+        <t-raw>12 Months</t-raw>
+        <t-raw>15/9/2021</t-raw>
+        <t-raw>Rs. 1500,000.00</t-raw>
+        <t-raw>15%</t-raw>
+        <t-raw>Diploma</t-raw>
+    </col>
+</school>
+
